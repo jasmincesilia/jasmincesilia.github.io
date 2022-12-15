@@ -1,0 +1,118 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Century Gothic;
+    font-weight:400;
+    line-height:1.8em;
+    color: darkgrey;
+}
+
+header {
+    height: 55px;
+	background-size: cover;
+	background-position: center; 
+}
+
+
+
+ul{
+	list-style-type: none;
+	margin-top: 35px; 
+}
+
+ul li{
+    display: inline-block;
+    float: right;
+}
+
+ul li a{
+	text-decoration: none;
+	color: rgb(7, 0, 0);
+	padding: 5px 20px;
+	border: 1px solid rgb(44, 15, 15);
+    
+}
+
+ul li a:hover{
+	background-color: rgb(199, 128, 167);
+	color: rgb(187, 159, 159);
+}
+
+ul li.active a{
+	background-color: rgb(0, 0, 0);
+	color: rgb(212, 189, 230);
+}
+
+
+
+.kuva1, .kuva2, .kuva3 {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.kuva1 {
+    background-image: url('../Website/Kotisivukuvat/background.jpg');
+    min-height: 80%;
+}
+
+.kuva2 {
+    background-image: url('../Website/Kotisivukuvat/Pentu4.jpg');
+    min-height: 400px;
+
+}
+
+.kuva3 {
+    background-image: url('../Website/Kotisivukuvat/pentu.webp');
+    min-height: 400px;
+
+}
+
+.teksti{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 17px;
+}
+
+
+.teksti1 {
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:black;
+    font-size:30px;
+}
+
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+
+.section-light{
+    background-color:azure;
+    color: #666;
+}
+
+
+
+.section-dark{
+    background-color: dimgrey;
+    color: whitesmoke;
+
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+}
