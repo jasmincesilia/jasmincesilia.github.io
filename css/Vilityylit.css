@@ -15,16 +15,18 @@ header {
 	background-position: center; 
 }
 
-
-
-ul{
-	list-style-type: none;
+.navigation ul{
+    text-align: center;
+    list-style-type: none;
 	margin-top: 35px; 
 }
 
+
 ul li{
-    display: inline-block;
-    float: right;
+    display: inline;
+    box-align: center;
+    padding-right: 10px;
+
 }
 
 ul li a{
@@ -32,17 +34,16 @@ ul li a{
 	color: rgb(7, 0, 0);
 	padding: 5px 20px;
 	border: 1px solid rgb(44, 15, 15);
-    
 }
 
 ul li a:hover{
-	background-color: rgb(199, 128, 167);
-	color: rgb(187, 159, 159);
+	background-color: rgb(175, 175, 175);
+	color: rgb(0, 0, 0);
 }
 
 ul li.active a{
-	background-color: rgb(0, 0, 0);
-	color: rgb(212, 189, 230);
+	background-color: rgb(151, 151, 151);
+	color: rgb(0, 0, 0);
 }
 
 
@@ -57,18 +58,18 @@ ul li.active a{
 }
 
 .kuva1 {
-    background-image: url('../Website/Kotisivukuvat/background.jpg');
+    background-image: url('../Kotisivukuvat/background.jpg');
     min-height: 80%;
 }
 
 .kuva2 {
-    background-image: url('../Website/Kotisivukuvat/Pentu4.jpg');
+    background-image: url('../Kotisivukuvat/Pentu4.jpg');
     min-height: 400px;
 
 }
 
 .kuva3 {
-    background-image: url('../Website/Kotisivukuvat/pentu.webp');
+    background-image: url('../Kotisivukuvat/pentu.webp');
     min-height: 400px;
 
 }
@@ -78,18 +79,22 @@ ul li.active a{
     top: 50%;
     width: 100%;
     text-align: center;
-    color: black;
+    color: rgb(116, 105, 105);
     font-size: 17px;
 }
 
 
+
 .teksti1 {
     position:absolute;
-    top:50%;
+    top:30%;
     width:100%;
     text-align:center;
-    color:black;
-    font-size:30px;
+    color:rgb(150, 150, 150);
+    font-size:50px;
+    font-style: italic;
+    border: 10px;
+    border-radius: 20px;
 }
 
 
@@ -115,4 +120,9 @@ ul li.active a{
 footer{
     text-align: center;
     padding: 10px;
+}
+
+.instagram.icon{
+    color:rgba(233, 0, 175, 0.534);
+    text-size-adjust: 30px;
 }
