@@ -126,3 +126,77 @@ footer{
     color:rgba(233, 0, 175, 0.534);
     text-size-adjust: 30px;
 }
+
+.container{
+    width: 100%;
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.kuvagalleria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 5fr));
+    grid-gap: 30px;
+}
+
+.kuvagalleria img{
+    width: 100%;
+}
+
+.containerblog{
+    width: 100%;
+}
+
+.containerblog .row {
+    width: 50%;
+    margin:auto;
+
+}
+
+.containerblog .row .header{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.content .card{
+    flex: 1;
+    margin: 30px 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+    background-color: darkgrey;
+}
+
+.content .card img{
+    width: 100%;
+    height: auto;
+}
+
+.content .card h4{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.content .card p{
+    font-size: 15px;
+    color: black;
+    line-height: 1.5;
+    padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .content{
+        flex-direction: column;
+    }
+    
+}
