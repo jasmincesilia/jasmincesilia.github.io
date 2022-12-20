@@ -132,14 +132,6 @@ footer{
     text-size-adjust: 30px;
 }
 
-.container{
-    width: 100%;
-    min-height: 50vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
 
 .kuvagalleria{
     display: grid;
@@ -206,4 +198,60 @@ footer{
     color: black;
     line-height: 1.5;
     padding: 10px;
+}
+
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+    height: 70%;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3%;
+}
+
+.card {
+    overflow: hidden;
+    padding: 50px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card_img img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card_body {
+    padding: 26px 20px 36px 20px;
+}
+
+.card_title {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    text-transform: capitalize;
+    font-size: 26px;
+    padding-bottom: 20px;
+}
+
+.card_body p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+a.read_more {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    padding: 24px 0;
+    width: 70%;
+    display: inline-block;
+    margin-top: 50px;
 }
